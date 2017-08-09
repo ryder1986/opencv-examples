@@ -1,0 +1,1 @@
+g++ test.cpp  -I../opencv249/include -lopencv_core -lopencv_highgui 
