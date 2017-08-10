@@ -5,7 +5,8 @@ Pedestrian_detection::Pedestrian_detection()
 {
    // p_cap=new VideoCapture("~/1.mp4");
 
-   p_cap= cvCreateFileCapture("/root/1.mp4");  //读取视频
+  //  p_cap= cvCreateFileCapture("/root/1.mp4");  //读取视频
+    p_cap= cvCreateFileCapture("rtsp://192.168.1.81:554");  //读取视频
 
         cvNamedWindow("example", CV_WINDOW_AUTOSIZE);                  //定义窗口
 }
